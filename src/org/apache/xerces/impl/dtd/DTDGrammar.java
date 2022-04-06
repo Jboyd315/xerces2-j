@@ -85,6 +85,7 @@ public class DTDGrammar
     private static final int INITIAL_CHUNK_COUNT = (1 << (10 - CHUNK_SHIFT)); // 2^10 = 1k
 
     /** List flag (0x80). */
+    //FIXME: Remove short declaration
     private static final short LIST_FLAG = 0x80;
 
     /** List mask (~LIST_FLAG). */
