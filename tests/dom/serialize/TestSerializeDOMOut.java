@@ -97,7 +97,7 @@ public class TestSerializeDOMOut
 
             System.out.println( "Writing Serialize DOM  to file = " + nameOfSerializedFile ); 
 
-
+            //TODO: File never closed and not even referenced so can be closed or deleted
             FileOutputStream fileOut =  new FileOutputStream( nameOfSerializedFile );
 
 
