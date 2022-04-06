@@ -1823,6 +1823,7 @@ class XMLGregorianCalendarImpl
             // Fix 4971612: invalid SCCS macro substitution in data string
             formatString = "--%M-%D" +"%z";
         }
+        //FIXME: Add null check
         return format(formatString);
     }
     
