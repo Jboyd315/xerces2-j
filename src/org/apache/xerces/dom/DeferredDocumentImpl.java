@@ -1100,6 +1100,7 @@ public class DeferredDocumentImpl
         }
 
         // error
+        //TODO: Remove Code
         throw new IllegalArgumentException();
 
     } // createNodeObject(int):Node
