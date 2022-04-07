@@ -410,9 +410,8 @@ public class GetElementsByTagName {
                 Document document = parser.parse(arg);
                 GetElementsByTagName.print(out, document, elementName, attributeName);
             }
-            //FIXME: Add output to catch block to avoid empty catch blocks
             catch (SAXParseException e) {
-                // ignore
+                System.out.print(e);
             }
             catch (Exception e) {
                 System.err.println("error: Parse error occurred - "+e.getMessage());
