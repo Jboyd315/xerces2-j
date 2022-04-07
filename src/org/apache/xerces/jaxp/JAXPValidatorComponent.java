@@ -586,8 +586,7 @@ final class JAXPValidatorComponent
     public void setProperty(String propertyId, Object value) throws XMLConfigurationException {
     }
     
-    //FIXME: Boolean method but returns null
-    public Boolean getFeatureDefault(String featureId) {
+    public Object getFeatureDefault(String featureId) {
         return null;
     }
 
