@@ -410,13 +410,6 @@ public class XPath {
             // DEBUG: This code is just for debugging and should *not*
             //        be left in because it will mess up hashcodes of
             //        serialized versions of this object. -Ac
-            //FIXME: Like comments above, this is dead code and only for debugging
-            if (false) {
-                str.append('[');
-                String s = super.toString();
-                str.append(s.substring(s.indexOf('@')));
-                str.append(']');
-            }
             return str.toString();
         } // toString():String
 
