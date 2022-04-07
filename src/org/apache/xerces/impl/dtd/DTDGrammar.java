@@ -86,10 +86,10 @@ public class DTDGrammar
 
     /** List flag (0x80). */
     //FIXME: Remove short declaration
-    private static final short LIST_FLAG = 0x80;
+    private static final long LIST_FLAG = 0x80;
 
     /** List mask (~LIST_FLAG). */
-    private static final short LIST_MASK = ~LIST_FLAG;
+    private static final long LIST_MASK = ~LIST_FLAG;
 
     // debugging
 
