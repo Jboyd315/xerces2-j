@@ -175,6 +175,7 @@ public class MixedContentModel
                 {
                     int type = fChildrenType[inIndex];
                     if (type == XMLContentSpec.CONTENTSPECNODE_LEAF) {
+                        //TODO: Change double equals sign to equals function
                         if (curChild.rawname == fChildren[inIndex].rawname) {
                             break;
                         }
