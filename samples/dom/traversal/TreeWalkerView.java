@@ -632,9 +632,7 @@ public class TreeWalkerView
             Node currentNode = null;
             try {
                 currentNode = (Node)parser.getProperty("http://apache.org/xml/properties/dom-node");
-            //TODO: Remove system.err.println from PMD
             } catch (SAXException se) {
-                System.err.println(se.getMessage());
                 return;
             }
             if (currentNode == null) return;
