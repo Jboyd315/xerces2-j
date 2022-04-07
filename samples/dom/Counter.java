@@ -159,8 +159,7 @@ public class Counter {
         if (node == null) {
             return;
         }
-        //TODO: Change values to final
-        int type = node.getNodeType();
+        final int type = node.getNodeType();
         switch (type) {
             case Node.DOCUMENT_NODE: {
                 fElements = 0;
